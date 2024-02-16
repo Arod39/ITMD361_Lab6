@@ -1,35 +1,40 @@
 body  { background-image: url("../images/black.jpg"); }
 
-#page-wrapper { background-image: url("../images/repeating.png");
-float: left;}
+#page-wrapper { width: 960px;
+margin: 0 auto;
+box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+border-radius: 12px 12px 0px 0px; }
 
-#header { position: absolute;
+#header {
+  position: relative;
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px; 
+}
+
+#header h1 { position: absolute;
 left: 420px;
 top:5px;
 font-size: 3em;
 font-family: 'Devonshire', cursive;
 color: #E35335;}
 
-#header h1
-
-#header a#logo1 img
+#header a#logo1 img 
 
 #header #toplink
 
 #footer
 
-#content-wrapper
+#content-wrapper { background-image: url("../images/repeating.png");
+float: left;}
 
-#main-content
+#main-content  
 
 h2 strong
 
 .imageR
 
-#side-content
+#side-content 
 
-#main-nav
-
-#main-nav ul
-
+#main-nav 
+#main-nav ul 
 #main-nav ul li
