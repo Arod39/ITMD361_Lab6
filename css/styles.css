@@ -41,8 +41,10 @@ height: 80px;
 clear: both;
 }
 
-#content-wrapper { background-image: url("../images/repeating.png");
-float: left;}
+#content-wrapper {
+background-image: url("../images/repeating.png");
+float: left;
+}
 
 #main-content  { 
 min-height: 300px;
@@ -67,14 +69,27 @@ font-weight: 900;}
 #side-content
 
 #main-nav { 
-text-decoration: none;
-position: absolute;
-top:-34px;
-right: 10px;
-color: white;
-font-size: 1.8em;
+float: left;
+width: 100%;
+background-color: #333;
 }
 
-#main-nav ul
+#main-nav ul 
 
-#main-nav ul li
+#main-nav ul li { 
+padding: 10px 25px;
+display: block;
+text-decoration: none;
+color: #ccc;
+}
+
+#center {
+  width: 960px;
+  text-align: center;
+}
+
+b {
+  font-weight: 900;
+  font-size: 48px;
+}
+
